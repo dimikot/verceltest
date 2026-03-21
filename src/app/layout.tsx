@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Error Test App",
   description: "Error test app",
+  icons: [],
 };
 
 export default function RootLayout({
