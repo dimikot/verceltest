@@ -18,7 +18,7 @@ export default function Home() {
           onClick={handleClick}
           className="rounded-full bg-foreground px-6 py-3 text-background font-medium transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc]"
         >
-          Get Greeting
+          Press to see Error
         </button>
         {message && (
           <p className="text-lg text-black dark:text-zinc-50">{message}</p>
