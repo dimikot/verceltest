@@ -15,7 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Error Test App",
   description: "Error test app",
-  icons: [],
+  icons: {
+    icon: "/vercel.svg",
+  },
 };
 
 export default function RootLayout({
